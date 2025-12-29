@@ -14,7 +14,7 @@ class SkinLesionClassification:
         self.logger = logging.getLogger(__name__)
 
         # Label mapping for the ISIC dataset classes
-        self.class_names = ["nv", "mel", "bcc", "akiec", "bkl", "df", "vasc", "scc"]
+        self.class_names = ["Melanocytic nevus", "Melanoma", "Basal cell carcinoma", "Actinic keratosis", "Benign keratosis", "Dermatofibroma", "Vascular lesion", "Squamous cell carcinoma"]
         
         # Hardware acceleration
         self.device = device if device else torch.device("cuda" if torch.cuda.is_available() else "cpu")
