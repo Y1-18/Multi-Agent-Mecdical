@@ -25,4 +25,4 @@ pandas==2.2.3
 
 python-dotenv==1.0.1
 httpx==0.28.1
-tavily-python  # أضفها إذا كنت تستخدم البحث في الويب
+tavily-python 
