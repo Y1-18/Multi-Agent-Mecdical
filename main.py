@@ -39,7 +39,7 @@ app.add_middleware(
 # Directories
 UPLOAD_FOLDER = "uploads/backend"
 SKIN_LESION_OUTPUT = "uploads/skin_lesion_output"
-SPEECH_DIR = "uploads/speech"
+
 
 for directory in [UPLOAD_FOLDER, SKIN_LESION_OUTPUT, SPEECH_DIR]:
     os.makedirs(directory, exist_ok=True)
