@@ -60,7 +60,7 @@ Yasser18/chest_x-ray
 Yasser18/brain_tumor
 ```
 
--Models are implemented using Hugging Face Transformers and PyTorch.
+- Models are implemented using Hugging Face Transformers and PyTorch.
 ---
 
 ---
